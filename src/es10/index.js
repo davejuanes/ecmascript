@@ -25,4 +25,10 @@ try {
     error    
 }
 
-let entries = [["name", "oscar"]]
+let entries = [["name", "oscar"], ['age', 31]]
+
+console.log(Object.fromEntries(entries))
+
+let mySymbol = `My symbol`
+let symbol = Symbol(mySymbol)
+console.log(symbol.description)
